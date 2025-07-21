@@ -1,13 +1,19 @@
-# Add Python dependencies here, one per line
-# Example:
-# numpy
-# pandas
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-lime
-allpairspy
-joblib
-scipy
+# Core scientific and data libraries
+numpy>=1.22           # Numerical computing
+pandas>=1.4           # Data manipulation and analysis
+matplotlib>=3.5       # Plotting and data visualization
+
+# Machine Learning frameworks
+scikit-learn>=1.0     # ML models, preprocessing, evaluation
+
+# Model explainability
+lime>=0.2.0.1         # Local Interpretable Model-agnostic Explanations (LIME)
+
+# Testing techniques
+allpairspy>=1.3       # Pairwise testing generation (used in test optimization)
+
+# Utilities
+joblib>=1.2           # Model persistence (used to save/load ML models)
+
+# Optional: Uncomment if you plan to use Jupyter notebooks
+# notebook>=6.4       # Interactive notebooks
