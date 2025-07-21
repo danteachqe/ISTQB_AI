@@ -1,0 +1,13 @@
+# Add Python dependencies here, one per line
+# Example:
+# numpy
+# pandas
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+lime
+allpairspy
+joblib
+scipy
