@@ -1,5 +1,8 @@
+pandas>=1.4           # Data manipulation and analysis
+matplotlib>=3.5       # Plotting and data visualization
+
 # Core scientific and data libraries
-numpy>=1.22           # Numerical computing
+numpy>=1.22,<2.0      # Numerical computing (compatible with SciPy/TensorFlow)
 pandas>=1.4           # Data manipulation and analysis
 matplotlib>=3.5       # Plotting and data visualization
 
